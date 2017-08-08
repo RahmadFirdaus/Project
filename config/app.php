@@ -166,6 +166,7 @@ return [
         /*
          * Package Service Providers...
          */
+        Laratrust\LaratrustServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
         Laravel\Tinker\TinkerServiceProvider::class,
 
@@ -227,6 +228,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Form' => Collective\Html\FormFacade::class,
+        'Laratrust' => Laratrust\LaratrustFacade::class,
 
     ],
 

@@ -40,7 +40,8 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
                         @if (Auth::check())
-                        <li><a href="{{ url('/home') }}">Dashboard</a></li>
+                        <li><a href="{{ url('/home') }}">Home</a></li>
+                        <li><a href="{{ url('/karyawan') }}">Karyawan</a></li>
                         @endif
                     </ul>
 
